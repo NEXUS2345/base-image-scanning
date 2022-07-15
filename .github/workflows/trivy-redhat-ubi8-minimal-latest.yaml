@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Trivy Ubuntu Latest
+name: Trivy RedHat UBI 8 Minimal
 
 on:
   schedule:
