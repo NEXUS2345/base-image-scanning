@@ -3,19 +3,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: build
+name: Trivy Ubuntu Latest
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "main" ]
   schedule:
-    - cron: '38 17 * * 3'
-
-permissions:
-  contents: read
+    - cron: '0 0 * * *'
 
 jobs:
   build:
