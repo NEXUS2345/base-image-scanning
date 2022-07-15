@@ -8,6 +8,9 @@ name: Trivy RedHat UBI 8 Minimal
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   build:
